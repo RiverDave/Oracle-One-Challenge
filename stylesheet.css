@@ -75,12 +75,34 @@ box-shadow: 15%;
     height: 70%;
     width: 26%;
     left: 58%;
-    border: none;
     background-color: #FFFFFF;
+    background-image: url(Muñecodibujo.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 0px 24px 32px -8px rgb(0 0 0 / 8%);
     border-radius: 32px;
     z-index: 1;
+    vertical-align: bottom;
+
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 32px;
+    color: #c5c9dc;
+    
 }
+
+#inner{
+
+    text-align:center;
+
+    margin-top: 115%;
+
+
+}
+
+
 
 
 
@@ -107,8 +129,15 @@ box-shadow: 15%;
     font-size: 28px;
     line-height: 19px;
     justify-content: center;
-
+    
 }
+
+.buttonE:hover{
+    cursor: pointer;
+    color: goldenrod;
+    
+}
+
 
 .buttonD{
     display: flex;
@@ -134,6 +163,12 @@ box-shadow: 15%;
     font-size: 28px;
     line-height: 19px;
     justify-content: center;
+}
+
+.buttonD:hover{
+    cursor: pointer;
+    color: goldenrod;
+
 }
 
 
@@ -162,6 +197,11 @@ box-shadow: 15%;
 
 }
 
+.copyButton:hover{
+    cursor: pointer;
+    color: goldenrod;
+}
+
 .buttons{
     display: flex;
     position: absolute;
@@ -169,7 +209,4 @@ box-shadow: 15%;
     left: 10%;
 }
 
-.buttons:hover{
-    cursor: pointer;
-}
 

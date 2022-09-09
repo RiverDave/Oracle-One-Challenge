@@ -2,11 +2,15 @@ const textoOriginal = document.querySelector("#area");
 
 const secondBox = document.querySelector("#decryptor2nd");
 
+const bigBox = document.querySelector("#square");
+
+
 
 
 
 
 function encriptar(encriptedString){
+
 
 
      encriptedString = encriptedString.replace(/e/g,"enter");
@@ -20,17 +24,22 @@ function encriptar(encriptedString){
      encriptedString = encriptedString.replace(/u/g,"ufat");
 
 
-     return encriptedString;
+     return encriptedString.toLowerCase();
      }
 
 
      function buttonE(){
-  
       const Encription = encriptar(textoOriginal.value);
-      
       secondBox.value = Encription;
-      
       textoOriginal.value = '';
+      document.getElementById('square').style.backgroundImage = "none";
+      document.getElementById('square').style.color = '#FFFFFF';
+      
+      
+
+      
+      
+
       
       }
 
@@ -47,7 +56,7 @@ function encriptar(encriptedString){
       
       encriptedString = encriptedString.replace(/ufat/g,'u');
 
-      return encriptedString;
+      return encriptedString.toLowerCase();
 
 
      }
@@ -60,6 +69,12 @@ function encriptar(encriptedString){
       secondBox.value = deEncription;
       
       textoOriginal.value = '';
+
+      document.getElementById('square').style.backgroundImage = "none";
+
+      document.getElementById('square').style.color = '#FFFFFF';
+
+
       
       }
 
