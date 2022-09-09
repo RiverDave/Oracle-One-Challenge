@@ -1,0 +1,158 @@
+
+header{
+    width: 940px;
+    margin: auto;
+}
+
+main{
+    height: 940px;
+    margin: auto;
+}
+
+
+body{
+    background: #EFF1FA;
+}
+
+
+
+
+.logo{
+
+display: inline block;
+position: absolute;
+top: 1%;
+left: 2%;
+color: #0A3871;
+box-shadow: 15%;
+}
+
+
+#area{
+    position: relative;
+    background: transparent;
+    width: 50%;
+    height: 80%;
+    margin: 20% 10%;
+    margin-bottom: 20%;
+    border-radius: 5%;
+    border: none;
+    color: #0A3871;
+    resize: none;
+    outline: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+     }
+
+     
+#decryptor2nd{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    resize: none;
+    outline: none;
+    font-size: 20px;
+    height: 70%;
+    width: 23%;
+    left: 60%;
+
+}
+
+
+#square{
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+}
+
+
+
+.buttonE{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+
+}
+
+.buttonD{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    background: #ded8e8;
+    border: 1px solid #290a71;
+    box-sizing: border-box;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+}
+
+
+.copyButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    background: #ded8e8;
+    border: 1px solid #290a71;
+    box-sizing: border-box;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    justify-content: center;
+    left: 66%;
+    bottom: 10%;
+
+}
+
+.buttons{
+    display: flex;
+    position: absolute;
+    bottom: 23%;
+    left: 10%;
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
+

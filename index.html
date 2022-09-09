@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="stylesheet.css" >
+    
+
+</head>
+
+<body>
+
+<header>
+    <img class="logo" src="Vector.png" alt="Alura logo">
+</header>
+
+<main>
+    <div class="text-area">
+    <form>
+    <textarea name="EncryptorArea" id="area" cols="30" rows="10" required placeholder="Ingrese el mensaje aquí"></textarea>
+
+
+
+    
+
+
+    </form>
+    <div class="buttons">
+    <input type="button" value="Encriptar" class="buttonE" onclick="buttonE()">
+    <input type="button" value="Desencriptar" class="buttonD" onclick="buttonD()">
+    </div>
+
+
+    </div>
+
+    <div class="rectangle">
+    <textarea name="2ndBox" id="decryptor2nd" cols="30" rows="10" readonly></textarea> 
+    <input type="button" value="Copiar" class="copyButton" onclick="copy()">
+
+
+    <div id="square"></div>
+
+
+    </div>
+
+
+    
+
+
+</main>
+
+
+
+
+<script src="encryptor.js"></script>
+</body>
+
+
+
+
+
+
+</html>
